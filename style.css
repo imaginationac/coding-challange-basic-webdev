@@ -1,0 +1,33 @@
+/* Reset */
+*{
+    margin: 1rem;
+    padding: 0;
+}
+
+h2{
+    text-align: center;
+}
+
+ul{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+li {
+    list-style: none;
+    padding: 10px;
+    background-color: #92af23;
+    border: 10px grey double;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+img{
+    max-width: 450px;
+    border: blue 2px solid;
+    transform: rotate(10deg);
+}
