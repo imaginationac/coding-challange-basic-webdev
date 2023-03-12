@@ -1,7 +1,8 @@
 let list = [];
 
 let addToList = function(){
-    list.push(list.length + 1);
+    let item = document.querySelector("#listItem").value;
+    list.push(item);
 }
 
 let printToAlert = function(){
@@ -11,3 +12,7 @@ let printToAlert = function(){
 // Challenge VI
 button = document.querySelector("#challenge_vi_button");
 button.addEventListener("click", printToAlert);
+
+// Challenge VII
+listButton = document.querySelector("#challenge_vii_button");
+listButton.addEventListener("click", addToList);
